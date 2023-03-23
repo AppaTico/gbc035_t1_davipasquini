@@ -1,9 +1,9 @@
 public class Selecao {
     private String nome, tecnico;
-    private String titulares [] = new String [11];
+    private Figurinha titulares [] = new Figurinha [11];
     private int copas, ano_fund;
 
-    public Selecao(String nm, String tec, String tit [], int cop, int af) {
+    public Selecao(String nm, String tec, Figurinha tit [], int cop, int af) {
         nome = nm;
         tecnico = tec;
 
