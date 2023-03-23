@@ -1,6 +1,6 @@
 public class Selecao {
     private String nome, tecnico;
-    private String titulares [] = new String [11];
+    private Figurinha titulares [] = new Figurinha [11];
     private int copas, ano_fund;
 
     public Selecao(String nm, String tec) {
@@ -16,7 +16,7 @@ public class Selecao {
             titular.setPosicao("MF");
             titular.setData_nasc("01/01/1970");
 
-            titulares[i] = titular.getNome();
+            titulares[i] = titular;
         }
     }
 
