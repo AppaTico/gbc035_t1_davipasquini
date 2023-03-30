@@ -1,0 +1,1 @@
+Os objetos são independentes, já que a exclusão de um não afetaria o outro, por não serem vitais para a existência uns dos outros.
