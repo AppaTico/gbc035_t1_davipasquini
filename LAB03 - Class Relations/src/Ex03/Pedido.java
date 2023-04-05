@@ -1,5 +1,11 @@
 package Ex03;
+import java.util.ArrayList;
 
 public class Pedido {
-    Pedido [] pedidos = new Pedido[20];
+    private ArrayList<Produto []> pedidos = new ArrayList<Produto []>();
+
+    public Pedido(Produto comanda [])
+    {
+        pedidos.add(comanda);
+    }
 }
