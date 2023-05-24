@@ -1,0 +1,8 @@
+- Diferença entre throw e throws
+
+Throws é usado pra indicar que uma exceção pode ser lançada por alguma função durante a execução.
+Throw é usado para lançar uma exceção explicitamente dentro de uma função ou método.
+
+- Diferença entre checked e unchecked exceptions
+
+Checked exception é encontrada no tempo de compilação enquanto a unchecked é encontrada no "runtime", ou seja, no tempo em que o programa está rodando.
