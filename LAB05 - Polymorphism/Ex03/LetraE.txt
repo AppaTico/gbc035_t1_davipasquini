@@ -1,0 +1,3 @@
+Sem usarmos casting teríamos que criar o método print(bool) em Estudante, neste caso o EstudantePosGrad não tendo o método print(bool) dará erro se tentarmos chamar print(bool) em algum elemento do vetor de Estudante que seja do tipo EstudantePosGrad.
+
+*AS ALTERAÇÕES DESCRITAS ACIMAS FORAM REALIZADAS NO CÓDIGO-FONTE*
